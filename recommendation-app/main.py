@@ -21,4 +21,5 @@ def trigger_oom():
 
 
 if __name__ == "__main__":
-    trigger_oom()
+    # trigger_oom()
+    print("Hello World")
