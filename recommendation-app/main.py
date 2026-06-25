@@ -38,5 +38,6 @@ def manual_oom():
 
 if __name__ == "__main__":
     # Cloud Run passes the port to listen on via the PORT environment variable
+    # Version 1.1
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
